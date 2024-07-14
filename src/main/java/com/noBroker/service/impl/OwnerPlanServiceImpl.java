@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class OwnerPlanServiceImpl implements OwnerPlanService {
-
+    String Hello = "hello";
     private ModelMapper modelMapper;
     private OwnerPlanRepository ownerPlanRepository;
 

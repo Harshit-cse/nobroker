@@ -18,5 +18,5 @@ public class OwnerPlanDto {
     private boolean propertyPromotion;
     private boolean guaranteedTenants;
     private boolean showingProperty;
-    private boolean facebookMarketingOfProperty;
+    private boolean facebookMarketingOfProperties;
 }
