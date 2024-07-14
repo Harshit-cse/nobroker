@@ -10,13 +10,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class OwnerPlanDto {
     private long id;
-    private String planName;
-    private double price;
+    private String planNames;
+    private double priceList;
     private boolean planValidity;
     private boolean relationshipManager;
     private boolean rentalAgreement;
     private boolean propertyPromotion;
     private boolean guaranteedTenants;
     private boolean showingProperty;
-    private boolean facebookMarketingOfProperty;
+    private boolean facebookMarketingOfPropertyHolder;
 }

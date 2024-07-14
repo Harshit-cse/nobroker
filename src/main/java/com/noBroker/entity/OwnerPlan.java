@@ -20,7 +20,7 @@ public class OwnerPlan {
     @Column(name = "plan_name",unique = true)
     private String planName;
     @Column(name = "price")
-    private double price;
+    private double priceList;
     @Column(name = "plan_validity")
     private boolean planValidity;
     @Column(name = "relationship_manager")
@@ -34,5 +34,5 @@ public class OwnerPlan {
     @Column(name = "showing_property")
     private boolean showingProperty;
     @Column(name = "facebook_marketing_of_property")
-    private boolean facebookMarketingOfProperty;
+    private boolean facebookMarketingOfPropertyHolder;
 }
