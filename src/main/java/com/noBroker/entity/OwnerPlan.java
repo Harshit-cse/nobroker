@@ -24,7 +24,7 @@ public class OwnerPlan {
     @Column(name = "plan_validity")
     private boolean planValidity;
     @Column(name = "relationship_manager")
-    private boolean relationshipManagers;
+    private boolean relationshipManager;
     @Column(name = "rental_agreement")
     private boolean rentalAgreement;
     @Column(name = "property_promotion")
